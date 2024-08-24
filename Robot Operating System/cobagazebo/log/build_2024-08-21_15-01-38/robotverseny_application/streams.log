@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_application -- -j8 -l8
+[0.056s] Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_application -- -j8 -l8
+[0.085s] Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_application
+[0.094s] -- Install configuration: ""
+[0.095s] -- Execute custom install script
+[0.095s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/package_run_dependencies/robotverseny_application
+[0.096s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/parent_prefix_path/robotverseny_application
+[0.096s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/ament_prefix_path.sh
+[0.097s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/ament_prefix_path.dsv
+[0.097s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/path.sh
+[0.098s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/path.dsv
+[0.098s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.bash
+[0.098s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.sh
+[0.098s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.zsh
+[0.098s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.dsv
+[0.098s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.dsv
+[0.105s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/packages/robotverseny_application
+[0.105s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/cmake/robotverseny_applicationConfig.cmake
+[0.106s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/cmake/robotverseny_applicationConfig-version.cmake
+[0.106s] -- Up-to-date symlink: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.xml
+[0.119s] Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_application

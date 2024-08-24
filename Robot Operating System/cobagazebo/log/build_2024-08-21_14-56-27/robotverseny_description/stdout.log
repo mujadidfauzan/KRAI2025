@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fauzan/cobagazebo/build/robotverseny_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/diff_drive/model.config
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/diff_drive/model.sdf
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/AsphaltTexture.png
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/chassis.dae
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/lidar.dae
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/textures/AsphaltTexture.png
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/textures/concrete.png
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/tire.dae
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/trackWalls.dae
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/track_road.dae
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/track_stripes.dae
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/track_walls.dae
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/wheel.dae
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/model.config
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/model.sdf
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/rrbot/model.sdf
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/robotverseny_description.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/robotverseny_description.sh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/ament_index/resource_index/package_run_dependencies/robotverseny_description
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/ament_index/resource_index/parent_prefix_path/robotverseny_description
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/path.sh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/path.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/local_setup.bash
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/local_setup.sh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/local_setup.zsh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/local_setup.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/ament_index/resource_index/packages/robotverseny_description
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/cmake/robotverseny_descriptionConfig.cmake
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/cmake/robotverseny_descriptionConfig-version.cmake
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.xml

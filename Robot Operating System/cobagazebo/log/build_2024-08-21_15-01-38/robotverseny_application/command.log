@@ -1,0 +1,4 @@
+Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_application -- -j8 -l8
+Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_application -- -j8 -l8
+Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_application
+Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_application

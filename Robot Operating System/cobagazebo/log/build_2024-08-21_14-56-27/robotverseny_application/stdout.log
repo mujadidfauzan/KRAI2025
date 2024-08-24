@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fauzan/cobagazebo/build/robotverseny_application
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/package_run_dependencies/robotverseny_application
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/parent_prefix_path/robotverseny_application
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/ament_prefix_path.sh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/ament_prefix_path.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/path.sh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/path.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.bash
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.sh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.zsh
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.dsv
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/packages/robotverseny_application
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/cmake/robotverseny_applicationConfig.cmake
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/cmake/robotverseny_applicationConfig-version.cmake
+-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.xml

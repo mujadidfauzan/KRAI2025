@@ -1,0 +1,4 @@
+source;share/robotverseny_description/environment/ament_prefix_path.sh
+source;share/robotverseny_description/environment/path.sh
+source;share/robotverseny_description/environment/robotverseny_description.sh
+source;share/robotverseny_description/environment/robotverseny_description.dsv

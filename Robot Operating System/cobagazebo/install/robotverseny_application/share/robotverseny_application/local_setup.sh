@@ -1,0 +1,1 @@
+/home/fauzan/cobagazebo/build/robotverseny_application/ament_cmake_environment_hooks/local_setup.sh

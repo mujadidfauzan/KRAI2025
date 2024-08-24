@@ -1,0 +1,688 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (robotverseny_application) JobQueued: {'identifier': 'robotverseny_application', 'dependencies': OrderedDict()}
+[0.000198] (robotverseny_description) JobQueued: {'identifier': 'robotverseny_description', 'dependencies': OrderedDict()}
+[0.000216] (robotverseny_gazebo) JobQueued: {'identifier': 'robotverseny_gazebo', 'dependencies': OrderedDict([('robotverseny_description', '/home/fauzan/cobagazebo/install/robotverseny_description')])}
+[0.000234] (robotverseny_bringup) JobQueued: {'identifier': 'robotverseny_bringup', 'dependencies': OrderedDict([('robotverseny_description', '/home/fauzan/cobagazebo/install/robotverseny_description'), ('robotverseny_gazebo', '/home/fauzan/cobagazebo/install/robotverseny_gazebo')])}
+[0.000254] (robotverseny_description) JobStarted: {'identifier': 'robotverseny_description'}
+[0.014637] (robotverseny_application) JobStarted: {'identifier': 'robotverseny_application'}
+[0.019994] (robotverseny_description) JobProgress: {'identifier': 'robotverseny_description', 'progress': 'cmake'}
+[0.020247] (robotverseny_description) Command: {'cmd': ['/usr/bin/cmake', '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fauzan/cobagazebo/install/robotverseny_description'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.028181] (robotverseny_application) JobProgress: {'identifier': 'robotverseny_application', 'progress': 'cmake'}
+[0.028446] (robotverseny_application) Command: {'cmd': ['/usr/bin/cmake', '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_application', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fauzan/cobagazebo/install/robotverseny_application'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_application', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_application'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.098949] (-) TimerEvent: {}
+[0.199535] (-) TimerEvent: {}
+[0.300073] (-) TimerEvent: {}
+[0.355438] (robotverseny_application) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.356464] (robotverseny_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400183] (-) TimerEvent: {}
+[0.500639] (-) TimerEvent: {}
+[0.601066] (-) TimerEvent: {}
+[0.701509] (-) TimerEvent: {}
+[0.745385] (robotverseny_application) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.745828] (robotverseny_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.801690] (-) TimerEvent: {}
+[0.902121] (-) TimerEvent: {}
+[1.000882] (robotverseny_application) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001054] (robotverseny_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.002239] (-) TimerEvent: {}
+[1.102598] (-) TimerEvent: {}
+[1.121704] (robotverseny_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.124781] (robotverseny_application) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.131086] (robotverseny_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.132185] (robotverseny_application) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.132412] (robotverseny_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.132746] (robotverseny_application) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.133865] (robotverseny_application) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.134264] (robotverseny_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.140254] (robotverseny_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.140482] (robotverseny_application) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.202749] (-) TimerEvent: {}
+[1.264606] (robotverseny_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.265247] (robotverseny_application) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.271501] (robotverseny_application) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.271727] (robotverseny_application) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.271927] (robotverseny_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.272118] (robotverseny_application) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.272318] (robotverseny_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.273050] (robotverseny_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.280465] (robotverseny_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.280615] (robotverseny_application) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.302923] (-) TimerEvent: {}
+[1.403321] (-) TimerEvent: {}
+[1.439480] (robotverseny_application) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.439705] (robotverseny_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.503447] (-) TimerEvent: {}
+[1.522603] (robotverseny_application) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.522950] (robotverseny_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.567009] (robotverseny_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.603635] (-) TimerEvent: {}
+[1.639759] (robotverseny_application) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.640736] (robotverseny_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.642962] (robotverseny_application) StdoutLine: {'line': b'-- Generating done\n'}
+[1.643510] (robotverseny_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.644046] (robotverseny_application) StdoutLine: {'line': b'-- Build files have been written to: /home/fauzan/cobagazebo/build/robotverseny_application\n'}
+[1.644787] (robotverseny_description) StdoutLine: {'line': b'-- Build files have been written to: /home/fauzan/cobagazebo/build/robotverseny_description\n'}
+[1.648998] (robotverseny_application) CommandEnded: {'returncode': 0}
+[1.649879] (robotverseny_application) JobProgress: {'identifier': 'robotverseny_application', 'progress': 'build'}
+[1.651209] (robotverseny_application) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fauzan/cobagazebo/build/robotverseny_application', '--', '-j8', '-l8'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_application', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_application'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.652178] (robotverseny_description) CommandEnded: {'returncode': 0}
+[1.653545] (robotverseny_description) JobProgress: {'identifier': 'robotverseny_description', 'progress': 'build'}
+[1.654587] (robotverseny_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fauzan/cobagazebo/build/robotverseny_description', '--', '-j8', '-l8'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.682584] (robotverseny_application) CommandEnded: {'returncode': 0}
+[1.687325] (robotverseny_description) CommandEnded: {'returncode': 0}
+[1.704090] (robotverseny_application) JobProgress: {'identifier': 'robotverseny_application', 'progress': 'install'}
+[1.704252] (-) TimerEvent: {}
+[1.713184] (robotverseny_application) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fauzan/cobagazebo/build/robotverseny_application'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_application', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_application'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.715006] (robotverseny_description) JobProgress: {'identifier': 'robotverseny_description', 'progress': 'install'}
+[1.716398] (robotverseny_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fauzan/cobagazebo/build/robotverseny_description'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.719414] (robotverseny_application) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.719823] (robotverseny_application) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.720482] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/package_run_dependencies/robotverseny_application\n'}
+[1.721933] (robotverseny_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.722361] (robotverseny_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.723749] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/diff_drive/model.config\n'}
+[1.728143] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/parent_prefix_path/robotverseny_application\n'}
+[1.730640] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/diff_drive/model.sdf\n'}
+[1.735180] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/ament_prefix_path.sh\n'}
+[1.737734] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/AsphaltTexture.png\n'}
+[1.742448] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/ament_prefix_path.dsv\n'}
+[1.745291] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/chassis.dae\n'}
+[1.749769] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/path.sh\n'}
+[1.752497] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/lidar.dae\n'}
+[1.756736] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/path.dsv\n'}
+[1.760866] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/textures/AsphaltTexture.png\n'}
+[1.763446] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.bash\n'}
+[1.767539] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/textures/concrete.png\n'}
+[1.770700] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.sh\n'}
+[1.774467] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/tire.dae\n'}
+[1.779264] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.zsh\n'}
+[1.783222] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/trackWalls.dae\n'}
+[1.788130] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.dsv\n'}
+[1.790317] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/track_road.dae\n'}
+[1.795899] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.dsv\n'}
+[1.797711] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/track_stripes.dae\n'}
+[1.804368] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/packages/robotverseny_application\n'}
+[1.804663] (-) TimerEvent: {}
+[1.806135] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/track_walls.dae\n'}
+[1.812242] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/cmake/robotverseny_applicationConfig.cmake\n'}
+[1.812693] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/meshes/wheel.dae\n'}
+[1.819315] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/model.config\n'}
+[1.820178] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/cmake/robotverseny_applicationConfig-version.cmake\n'}
+[1.827165] (robotverseny_application) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.xml\n'}
+[1.827669] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/roboworks/model.sdf\n'}
+[1.836284] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models/rrbot/model.sdf\n'}
+[1.837707] (robotverseny_application) CommandEnded: {'returncode': 0}
+[1.843762] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/robotverseny_description.dsv\n'}
+[1.850510] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/robotverseny_description.sh\n'}
+[1.857870] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/ament_index/resource_index/package_run_dependencies/robotverseny_description\n'}
+[1.864877] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/ament_index/resource_index/parent_prefix_path/robotverseny_description\n'}
+[1.872901] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/ament_prefix_path.sh\n'}
+[1.881249] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/ament_prefix_path.dsv\n'}
+[1.888848] (robotverseny_application) JobEnded: {'identifier': 'robotverseny_application', 'rc': 0}
+[1.890166] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/path.sh\n'}
+[1.899885] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/environment/path.dsv\n'}
+[1.904824] (-) TimerEvent: {}
+[1.906454] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/local_setup.bash\n'}
+[1.913326] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/local_setup.sh\n'}
+[1.921444] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/local_setup.zsh\n'}
+[1.929253] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/local_setup.dsv\n'}
+[1.936684] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.dsv\n'}
+[1.945763] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/ament_index/resource_index/packages/robotverseny_description\n'}
+[1.955172] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/cmake/robotverseny_descriptionConfig.cmake\n'}
+[1.963067] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/cmake/robotverseny_descriptionConfig-version.cmake\n'}
+[1.970262] (robotverseny_description) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.xml\n'}
+[1.979958] (robotverseny_description) CommandEnded: {'returncode': 0}
+[2.005059] (-) TimerEvent: {}
+[2.013204] (robotverseny_description) JobEnded: {'identifier': 'robotverseny_description', 'rc': 0}
+[2.014040] (robotverseny_gazebo) JobStarted: {'identifier': 'robotverseny_gazebo'}
+[2.069811] (robotverseny_gazebo) JobProgress: {'identifier': 'robotverseny_gazebo', 'progress': 'cmake'}
+[2.070257] (robotverseny_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fauzan/cobagazebo/install/robotverseny_gazebo'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[2.105207] (-) TimerEvent: {}
+[2.205647] (-) TimerEvent: {}
+[2.220473] (robotverseny_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.305835] (-) TimerEvent: {}
+[2.406294] (-) TimerEvent: {}
+[2.506663] (-) TimerEvent: {}
+[2.607026] (-) TimerEvent: {}
+[2.701581] (robotverseny_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.707147] (-) TimerEvent: {}
+[2.807637] (-) TimerEvent: {}
+[2.908296] (-) TimerEvent: {}
+[3.008951] (-) TimerEvent: {}
+[3.077432] (robotverseny_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.109322] (-) TimerEvent: {}
+[3.209765] (-) TimerEvent: {}
+[3.250268] (robotverseny_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.256528] (robotverseny_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.256968] (robotverseny_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.257267] (robotverseny_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.260238] (robotverseny_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.309895] (-) TimerEvent: {}
+[3.410262] (-) TimerEvent: {}
+[3.439939] (robotverseny_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.445881] (robotverseny_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.446318] (robotverseny_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.447298] (robotverseny_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.448596] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.510494] (-) TimerEvent: {}
+[3.590861] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.610692] (-) TimerEvent: {}
+[3.650944] (robotverseny_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.673425] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found robotverseny_description: 0.0.0 (/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/cmake)\n'}
+[3.695719] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[3.696373] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[3.697679] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[3.700011] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[3.700481] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[3.705582] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[3.706032] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[3.710794] (-) TimerEvent: {}
+[3.735231] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.810942] (-) TimerEvent: {}
+[3.827801] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.829246] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.835611] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.851836] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.873691] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.875207] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[3.878017] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[3.878484] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[3.897774] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.16.0\n'}
+[3.898247] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[3.901342] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[3.901819] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[3.906229] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.911084] (-) TimerEvent: {}
+[3.916998] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.940026] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.940437] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.944625] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[3.945099] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[3.948019] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[3.948414] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[3.948546] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[3.950787] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[3.951197] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[3.952230] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[3.956585] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[3.957038] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[4.011229] (-) TimerEvent: {}
+[4.111629] (-) TimerEvent: {}
+[4.212082] (-) TimerEvent: {}
+[4.312610] (-) TimerEvent: {}
+[4.413140] (-) TimerEvent: {}
+[4.513552] (-) TimerEvent: {}
+[4.614080] (-) TimerEvent: {}
+[4.714553] (-) TimerEvent: {}
+[4.814942] (-) TimerEvent: {}
+[4.915411] (-) TimerEvent: {}
+[5.016011] (-) TimerEvent: {}
+[5.116538] (-) TimerEvent: {}
+[5.216923] (-) TimerEvent: {}
+[5.317291] (-) TimerEvent: {}
+[5.417629] (-) TimerEvent: {}
+[5.518058] (-) TimerEvent: {}
+[5.618438] (-) TimerEvent: {}
+[5.718848] (-) TimerEvent: {}
+[5.819305] (-) TimerEvent: {}
+[5.919717] (-) TimerEvent: {}
+[6.020133] (-) TimerEvent: {}
+[6.120584] (-) TimerEvent: {}
+[6.221057] (-) TimerEvent: {}
+[6.308355] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[6.321241] (-) TimerEvent: {}
+[6.421765] (-) TimerEvent: {}
+[6.522294] (-) TimerEvent: {}
+[6.622816] (-) TimerEvent: {}
+[6.723268] (-) TimerEvent: {}
+[6.823720] (-) TimerEvent: {}
+[6.924205] (-) TimerEvent: {}
+[7.024745] (-) TimerEvent: {}
+[7.125143] (-) TimerEvent: {}
+[7.225544] (-) TimerEvent: {}
+[7.325916] (-) TimerEvent: {}
+[7.426314] (-) TimerEvent: {}
+[7.510000] (robotverseny_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[7.514083] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[7.526555] (-) TimerEvent: {}
+[7.536305] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[7.562530] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[7.626699] (-) TimerEvent: {}
+[7.683298] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[7.683844] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[7.684007] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[7.686389] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[7.686996] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[7.691072] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[7.691472] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[7.726813] (-) TimerEvent: {}
+[7.827204] (-) TimerEvent: {}
+[7.927613] (-) TimerEvent: {}
+[8.028042] (-) TimerEvent: {}
+[8.128440] (-) TimerEvent: {}
+[8.228808] (-) TimerEvent: {}
+[8.329211] (-) TimerEvent: {}
+[8.429623] (-) TimerEvent: {}
+[8.530318] (-) TimerEvent: {}
+[8.630761] (-) TimerEvent: {}
+[8.731223] (-) TimerEvent: {}
+[8.831786] (-) TimerEvent: {}
+[8.836856] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[8.837646] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.915585] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[8.918299] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[8.918733] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[8.920460] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[8.923263] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[8.923885] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[8.925660] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[8.926235] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[8.926834] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[8.927014] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[8.927230] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[8.931913] (-) TimerEvent: {}
+[8.969589] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[8.970008] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[8.972285] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[8.972739] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[8.973100] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.974489] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[8.976760] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[8.977197] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[8.982207] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[8.993735] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[9.018968] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[9.024127] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[9.032126] (-) TimerEvent: {}
+[9.037467] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[9.065719] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[9.071071] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[9.081161] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[9.107450] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[9.112319] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[9.123178] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[9.132292] (-) TimerEvent: {}
+[9.149593] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[9.154896] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[9.163737] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[9.194608] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[9.198789] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[9.199241] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[9.232465] (-) TimerEvent: {}
+[9.332908] (-) TimerEvent: {}
+[9.433480] (-) TimerEvent: {}
+[9.534060] (-) TimerEvent: {}
+[9.634832] (-) TimerEvent: {}
+[9.735440] (-) TimerEvent: {}
+[9.836063] (-) TimerEvent: {}
+[9.936627] (-) TimerEvent: {}
+[10.037135] (-) TimerEvent: {}
+[10.137575] (-) TimerEvent: {}
+[10.238070] (-) TimerEvent: {}
+[10.338652] (-) TimerEvent: {}
+[10.439123] (-) TimerEvent: {}
+[10.539530] (-) TimerEvent: {}
+[10.604320] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[10.617469] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[10.629099] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[10.639698] (-) TimerEvent: {}
+[10.659015] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[10.667877] (robotverseny_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[10.679147] (robotverseny_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[10.711814] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[10.712371] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[10.712941] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.713486] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[10.719765] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[10.720300] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[10.739895] (-) TimerEvent: {}
+[10.840351] (-) TimerEvent: {}
+[10.940901] (-) TimerEvent: {}
+[11.041350] (-) TimerEvent: {}
+[11.141749] (-) TimerEvent: {}
+[11.242264] (-) TimerEvent: {}
+[11.342675] (-) TimerEvent: {}
+[11.443041] (-) TimerEvent: {}
+[11.543419] (-) TimerEvent: {}
+[11.643874] (-) TimerEvent: {}
+[11.744298] (-) TimerEvent: {}
+[11.841526] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.842087] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[11.842944] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[11.843395] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[11.844390] (-) TimerEvent: {}
+[11.849769] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[11.850415] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[11.850914] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.851589] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[11.851861] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[11.855144] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[11.855860] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[11.869935] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[11.870479] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[11.870813] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[11.871106] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[11.922189] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[11.925149] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[11.925637] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[11.926027] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.926436] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[11.927764] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[11.928507] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[11.928941] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[11.929249] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[11.932285] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[11.932889] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[11.937143] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[11.944570] (-) TimerEvent: {}
+[12.045032] (-) TimerEvent: {}
+[12.050545] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[12.051135] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[12.051765] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[12.052379] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[12.053221] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[12.055094] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[12.058258] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[12.058895] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[12.059349] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[12.060359] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[12.062782] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[12.063273] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[12.063658] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[12.064580] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[12.067302] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[12.067811] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[12.068201] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[12.072517] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[12.073033] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[12.145201] (-) TimerEvent: {}
+[12.245649] (-) TimerEvent: {}
+[12.346274] (-) TimerEvent: {}
+[12.446857] (-) TimerEvent: {}
+[12.547304] (-) TimerEvent: {}
+[12.647878] (-) TimerEvent: {}
+[12.748595] (-) TimerEvent: {}
+[12.849246] (-) TimerEvent: {}
+[12.950059] (-) TimerEvent: {}
+[13.050805] (-) TimerEvent: {}
+[13.151263] (-) TimerEvent: {}
+[13.247664] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[13.248454] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[13.248856] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[13.249290] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[13.249715] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[13.250168] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[13.250655] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[13.251330] (-) TimerEvent: {}
+[13.252667] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[13.256187] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.0\n'}
+[13.256645] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[13.258493] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[13.261565] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.0\n'}
+[13.262028] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[13.263313] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[13.265850] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.0\n'}
+[13.266585] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[13.267886] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[13.270529] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.0\n'}
+[13.271031] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[13.272498] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[13.274639] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.0\n'}
+[13.275036] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[13.276205] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[13.278504] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.0\n'}
+[13.278866] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[13.279938] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[13.282198] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.0\n'}
+[13.282758] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[13.284144] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[13.287819] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.0\n'}
+[13.288541] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[13.289733] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[13.292210] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.0\n'}
+[13.292744] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[13.293062] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[13.294683] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[13.298083] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0\n'}
+[13.299020] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[13.299374] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[13.301810] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[13.304863] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.0\n'}
+[13.305348] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[13.305725] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[13.306729] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[13.309057] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0\n'}
+[13.309517] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[13.310805] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[13.313372] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0\n'}
+[13.313885] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[13.314947] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[13.317315] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.0\n'}
+[13.317826] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[13.318215] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[13.319582] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[13.322510] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0\n'}
+[13.323086] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[13.323477] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[13.324554] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[13.327125] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0\n'}
+[13.327611] (robotverseny_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[13.327980] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.0\n'}
+[13.329388] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[13.329747] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[13.333926] (robotverseny_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[13.351475] (-) TimerEvent: {}
+[13.451873] (-) TimerEvent: {}
+[13.552331] (-) TimerEvent: {}
+[13.652770] (-) TimerEvent: {}
+[13.753252] (-) TimerEvent: {}
+[13.853704] (-) TimerEvent: {}
+[13.954294] (-) TimerEvent: {}
+[14.054740] (-) TimerEvent: {}
+[14.155330] (-) TimerEvent: {}
+[14.255890] (-) TimerEvent: {}
+[14.356407] (-) TimerEvent: {}
+[14.456909] (-) TimerEvent: {}
+[14.468272] (robotverseny_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.549950] (robotverseny_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.557084] (-) TimerEvent: {}
+[14.575023] (robotverseny_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[14.576592] (robotverseny_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/fauzan/cobagazebo/build/robotverseny_gazebo\n'}
+[14.590858] (robotverseny_gazebo) CommandEnded: {'returncode': 0}
+[14.591850] (robotverseny_gazebo) JobProgress: {'identifier': 'robotverseny_gazebo', 'progress': 'build'}
+[14.592980] (robotverseny_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fauzan/cobagazebo/build/robotverseny_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[14.639681] (robotverseny_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o\x1b[0m\n'}
+[14.641036] (robotverseny_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o\x1b[0m\n'}
+[14.657265] (-) TimerEvent: {}
+[14.757739] (-) TimerEvent: {}
+[14.858248] (-) TimerEvent: {}
+[14.958761] (-) TimerEvent: {}
+[15.059267] (-) TimerEvent: {}
+[15.160761] (-) TimerEvent: {}
+[15.261306] (-) TimerEvent: {}
+[15.361966] (-) TimerEvent: {}
+[15.462538] (-) TimerEvent: {}
+[15.563128] (-) TimerEvent: {}
+[15.664094] (-) TimerEvent: {}
+[15.764698] (-) TimerEvent: {}
+[15.865288] (-) TimerEvent: {}
+[15.965923] (-) TimerEvent: {}
+[16.066416] (-) TimerEvent: {}
+[16.166956] (-) TimerEvent: {}
+[16.267428] (-) TimerEvent: {}
+[16.368085] (-) TimerEvent: {}
+[16.468708] (-) TimerEvent: {}
+[16.569285] (-) TimerEvent: {}
+[16.669816] (-) TimerEvent: {}
+[16.770338] (-) TimerEvent: {}
+[16.871081] (-) TimerEvent: {}
+[16.971987] (-) TimerEvent: {}
+[17.072742] (-) TimerEvent: {}
+[17.173385] (-) TimerEvent: {}
+[17.273850] (-) TimerEvent: {}
+[17.374521] (-) TimerEvent: {}
+[17.475092] (-) TimerEvent: {}
+[17.575718] (-) TimerEvent: {}
+[17.676293] (-) TimerEvent: {}
+[17.776987] (-) TimerEvent: {}
+[17.877706] (-) TimerEvent: {}
+[17.978343] (-) TimerEvent: {}
+[18.078934] (-) TimerEvent: {}
+[18.179463] (-) TimerEvent: {}
+[18.280263] (-) TimerEvent: {}
+[18.380892] (-) TimerEvent: {}
+[18.481622] (-) TimerEvent: {}
+[18.582108] (-) TimerEvent: {}
+[18.682676] (-) TimerEvent: {}
+[18.783231] (-) TimerEvent: {}
+[18.883891] (-) TimerEvent: {}
+[18.984565] (-) TimerEvent: {}
+[19.085126] (-) TimerEvent: {}
+[19.185619] (-) TimerEvent: {}
+[19.286122] (-) TimerEvent: {}
+[19.386759] (-) TimerEvent: {}
+[19.487338] (-) TimerEvent: {}
+[19.587853] (-) TimerEvent: {}
+[19.688416] (-) TimerEvent: {}
+[19.789049] (-) TimerEvent: {}
+[19.889599] (-) TimerEvent: {}
+[19.990261] (-) TimerEvent: {}
+[20.090796] (-) TimerEvent: {}
+[20.191220] (-) TimerEvent: {}
+[20.291956] (-) TimerEvent: {}
+[20.377529] (robotverseny_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libBasicSystem.so\x1b[0m\n'}
+[20.392227] (-) TimerEvent: {}
+[20.475959] (robotverseny_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libFullSystem.so\x1b[0m\n'}
+[20.492549] (-) TimerEvent: {}
+[20.592992] (-) TimerEvent: {}
+[20.693537] (-) TimerEvent: {}
+[20.791364] (robotverseny_gazebo) StdoutLine: {'line': b'[100%] Built target BasicSystem\n'}
+[20.793710] (-) TimerEvent: {}
+[20.841903] (robotverseny_gazebo) StdoutLine: {'line': b'[100%] Built target FullSystem\n'}
+[20.855369] (robotverseny_gazebo) CommandEnded: {'returncode': 0}
+[20.893944] (robotverseny_gazebo) JobProgress: {'identifier': 'robotverseny_gazebo', 'progress': 'install'}
+[20.894107] (-) TimerEvent: {}
+[20.895302] (robotverseny_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fauzan/cobagazebo/build/robotverseny_gazebo'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[20.904739] (robotverseny_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.905307] (robotverseny_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.906362] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/libBasicSystem.so\n'}
+[20.916228] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/libFullSystem.so\n'}
+[20.926861] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/diff_drive.sdf\n'}
+[20.937079] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/AsphaltTexture.png\n'}
+[20.946550] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/chassis.dae\n'}
+[20.954946] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/lidar.dae\n'}
+[20.963476] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/textures/AsphaltTexture.png\n'}
+[20.972486] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/tire.dae\n'}
+[20.979925] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/trackWalls.dae\n'}
+[20.989434] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/track_road.dae\n'}
+[20.994396] (-) TimerEvent: {}
+[20.997765] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/track_stripes.dae\n'}
+[21.005790] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/track_walls.dae\n'}
+[21.017150] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/wheel.dae\n'}
+[21.025329] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/roboworks.sdf\n'}
+[21.033441] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/robotverseny_gazebo.dsv\n'}
+[21.041099] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/robotverseny_gazebo.sh\n'}
+[21.050561] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/ament_index/resource_index/package_run_dependencies/robotverseny_gazebo\n'}
+[21.058180] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/ament_index/resource_index/parent_prefix_path/robotverseny_gazebo\n'}
+[21.065693] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/ament_prefix_path.sh\n'}
+[21.076733] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/ament_prefix_path.dsv\n'}
+[21.086496] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/path.sh\n'}
+[21.094626] (-) TimerEvent: {}
+[21.098994] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/path.dsv\n'}
+[21.107841] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/local_setup.bash\n'}
+[21.119189] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/local_setup.sh\n'}
+[21.129874] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/local_setup.zsh\n'}
+[21.138642] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/local_setup.dsv\n'}
+[21.150350] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.dsv\n'}
+[21.162163] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/ament_index/resource_index/packages/robotverseny_gazebo\n'}
+[21.173731] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/cmake/robotverseny_gazeboConfig.cmake\n'}
+[21.182655] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/cmake/robotverseny_gazeboConfig-version.cmake\n'}
+[21.194050] (robotverseny_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.xml\n'}
+[21.194731] (-) TimerEvent: {}
+[21.207281] (robotverseny_gazebo) CommandEnded: {'returncode': 0}
+[21.261605] (robotverseny_gazebo) JobEnded: {'identifier': 'robotverseny_gazebo', 'rc': 0}
+[21.263296] (robotverseny_bringup) JobStarted: {'identifier': 'robotverseny_bringup'}
+[21.294963] (-) TimerEvent: {}
+[21.365992] (robotverseny_bringup) JobProgress: {'identifier': 'robotverseny_bringup', 'progress': 'cmake'}
+[21.366432] (robotverseny_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/fauzan/cobagazebo/install/robotverseny_bringup'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('IGN_GAZEBO_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[21.395164] (-) TimerEvent: {}
+[21.495725] (-) TimerEvent: {}
+[21.553010] (robotverseny_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[21.595975] (-) TimerEvent: {}
+[21.696553] (-) TimerEvent: {}
+[21.797236] (-) TimerEvent: {}
+[21.898185] (-) TimerEvent: {}
+[21.998961] (-) TimerEvent: {}
+[22.099495] (-) TimerEvent: {}
+[22.199992] (-) TimerEvent: {}
+[22.300485] (-) TimerEvent: {}
+[22.317638] (robotverseny_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[22.400672] (-) TimerEvent: {}
+[22.501148] (-) TimerEvent: {}
+[22.601575] (-) TimerEvent: {}
+[22.702240] (-) TimerEvent: {}
+[22.720022] (robotverseny_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[22.802444] (-) TimerEvent: {}
+[22.902971] (-) TimerEvent: {}
+[22.923119] (robotverseny_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[22.939831] (robotverseny_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[22.940370] (robotverseny_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[22.941179] (robotverseny_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[22.948724] (robotverseny_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[23.003202] (-) TimerEvent: {}
+[23.103749] (-) TimerEvent: {}
+[23.184521] (robotverseny_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[23.204004] (-) TimerEvent: {}
+[23.204738] (robotverseny_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[23.217028] (robotverseny_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[23.217427] (robotverseny_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[23.217943] (robotverseny_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[23.304315] (-) TimerEvent: {}
+[23.404980] (-) TimerEvent: {}
+[23.505581] (-) TimerEvent: {}
+[23.507974] (robotverseny_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[23.593891] (robotverseny_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[23.605745] (-) TimerEvent: {}
+[23.617178] (robotverseny_bringup) StdoutLine: {'line': b'-- Found robotverseny_description: 0.0.0 (/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/cmake)\n'}
+[23.617556] (robotverseny_bringup) StdoutLine: {'line': b'-- Found robotverseny_gazebo: 0.0.0 (/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/cmake)\n'}
+[23.619055] (robotverseny_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[23.697367] (robotverseny_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.701453] (robotverseny_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[23.702604] (robotverseny_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/fauzan/cobagazebo/build/robotverseny_bringup\n'}
+[23.705864] (-) TimerEvent: {}
+[23.707745] (robotverseny_bringup) CommandEnded: {'returncode': 0}
+[23.708898] (robotverseny_bringup) JobProgress: {'identifier': 'robotverseny_bringup', 'progress': 'build'}
+[23.709367] (robotverseny_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fauzan/cobagazebo/build/robotverseny_bringup', '--', '-j8', '-l8'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('IGN_GAZEBO_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[23.743144] (robotverseny_bringup) CommandEnded: {'returncode': 0}
+[23.764859] (robotverseny_bringup) JobProgress: {'identifier': 'robotverseny_bringup', 'progress': 'install'}
+[23.764975] (robotverseny_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fauzan/cobagazebo/build/robotverseny_bringup'], 'cwd': '/home/fauzan/cobagazebo/build/robotverseny_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fauzan'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fauzan'), ('OLDPWD', '/home/fauzan/cobagazebo/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fauzan/cobagazebo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fauzan'), ('NAME', 'Fauz'), ('WSL_INTEROP', '/run/WSL/367_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/mujad/AppData/Roaming/npm:/mnt/c/Users/mujad/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mujad/AppData/Roaming/Composer/vendor/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds:/home/fauzan/cobagazebo/install/robotverseny_description/share'), ('IGN_GAZEBO_PLUGIN_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo'), ('PWD', '/home/fauzan/cobagazebo/build/robotverseny_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[23.771046] (robotverseny_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.771466] (robotverseny_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.772301] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/launch/diff_drive.launch.py\n'}
+[23.779662] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/launch/roboworks.launch.py\n'}
+[23.789711] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/launch/rrbot_setup.launch.py\n'}
+[23.796933] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/diff_drive.rviz\n'}
+[23.803101] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/robotverseny.rviz\n'}
+[23.806038] (-) TimerEvent: {}
+[23.810886] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/robotverseny_bridge.yaml\n'}
+[23.817234] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/ros_gz_example_bridge.yaml\n'}
+[23.823412] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/rrbot.rviz\n'}
+[23.829901] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/ament_index/resource_index/package_run_dependencies/robotverseny_bringup\n'}
+[23.836233] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/ament_index/resource_index/parent_prefix_path/robotverseny_bringup\n'}
+[23.842821] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/environment/ament_prefix_path.sh\n'}
+[23.848976] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/environment/ament_prefix_path.dsv\n'}
+[23.857590] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/environment/path.sh\n'}
+[23.864758] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/environment/path.dsv\n'}
+[23.872813] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/local_setup.bash\n'}
+[23.881055] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/local_setup.sh\n'}
+[23.891377] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/local_setup.zsh\n'}
+[23.900396] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/local_setup.dsv\n'}
+[23.906346] (-) TimerEvent: {}
+[23.908586] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.dsv\n'}
+[23.916761] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/ament_index/resource_index/packages/robotverseny_bringup\n'}
+[23.924013] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/cmake/robotverseny_bringupConfig.cmake\n'}
+[23.932581] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/cmake/robotverseny_bringupConfig-version.cmake\n'}
+[23.940830] (robotverseny_bringup) StdoutLine: {'line': b'-- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.xml\n'}
+[23.951656] (robotverseny_bringup) CommandEnded: {'returncode': 0}
+[23.984420] (robotverseny_bringup) JobEnded: {'identifier': 'robotverseny_bringup', 'rc': 0}
+[23.985918] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/fauzan/cobagazebo/src/robotverseny/robotverseny_bringup/launch/rrbot_setup.launch.py

@@ -1,0 +1,52 @@
+[0.107s] Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_bringup': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake /home/fauzan/cobagazebo/src/robotverseny/robotverseny_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fauzan/cobagazebo/install/robotverseny_bringup
+[0.290s] -- The C compiler identification is GNU 11.4.0
+[1.055s] -- The CXX compiler identification is GNU 11.4.0
+[1.457s] -- Detecting C compiler ABI info
+[1.660s] -- Detecting C compiler ABI info - done
+[1.677s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.677s] -- Detecting C compile features
+[1.678s] -- Detecting C compile features - done
+[1.686s] -- Detecting CXX compiler ABI info
+[1.921s] -- Detecting CXX compiler ABI info - done
+[1.942s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.954s] -- Detecting CXX compile features
+[1.954s] -- Detecting CXX compile features - done
+[1.955s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.245s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.354s] -- Found robotverseny_description: 0.0.0 (/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/cmake)
+[2.354s] -- Found robotverseny_gazebo: 0.0.0 (/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/cmake)
+[2.356s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.434s] -- Configuring done
+[2.438s] -- Generating done
+[2.439s] -- Build files have been written to: /home/fauzan/cobagazebo/build/robotverseny_bringup
+[2.445s] Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake /home/fauzan/cobagazebo/src/robotverseny/robotverseny_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fauzan/cobagazebo/install/robotverseny_bringup
+[2.446s] Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_bringup': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_bringup -- -j8 -l8
+[2.481s] Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_bringup -- -j8 -l8
+[2.502s] Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_bringup': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_bringup
+[2.508s] -- Install configuration: ""
+[2.508s] -- Execute custom install script
+[2.509s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/launch/diff_drive.launch.py
+[2.516s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/launch/roboworks.launch.py
+[2.527s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/launch/rrbot_setup.launch.py
+[2.534s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/diff_drive.rviz
+[2.540s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/robotverseny.rviz
+[2.548s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/robotverseny_bridge.yaml
+[2.554s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/ros_gz_example_bridge.yaml
+[2.560s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/config/rrbot.rviz
+[2.567s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/ament_index/resource_index/package_run_dependencies/robotverseny_bringup
+[2.573s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/ament_index/resource_index/parent_prefix_path/robotverseny_bringup
+[2.580s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/environment/ament_prefix_path.sh
+[2.586s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/environment/ament_prefix_path.dsv
+[2.595s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/environment/path.sh
+[2.602s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/environment/path.dsv
+[2.610s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/local_setup.bash
+[2.618s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/local_setup.sh
+[2.628s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/local_setup.zsh
+[2.637s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/local_setup.dsv
+[2.645s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.dsv
+[2.654s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/ament_index/resource_index/packages/robotverseny_bringup
+[2.661s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/cmake/robotverseny_bringupConfig.cmake
+[2.670s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/cmake/robotverseny_bringupConfig-version.cmake
+[2.678s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.xml
+[2.689s] Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_bringup

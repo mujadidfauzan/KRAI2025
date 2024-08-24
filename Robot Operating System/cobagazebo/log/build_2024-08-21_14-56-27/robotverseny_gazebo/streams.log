@@ -1,0 +1,271 @@
+[0.059s] Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake /home/fauzan/cobagazebo/src/robotverseny/robotverseny_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fauzan/cobagazebo/install/robotverseny_gazebo
+[0.207s] -- The C compiler identification is GNU 11.4.0
+[0.688s] -- The CXX compiler identification is GNU 11.4.0
+[1.064s] -- Detecting C compiler ABI info
+[1.236s] -- Detecting C compiler ABI info - done
+[1.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.243s] -- Detecting C compile features
+[1.243s] -- Detecting C compile features - done
+[1.246s] -- Detecting CXX compiler ABI info
+[1.426s] -- Detecting CXX compiler ABI info - done
+[1.432s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.432s] -- Detecting CXX compile features
+[1.433s] -- Detecting CXX compile features - done
+[1.435s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.577s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.637s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.660s] -- Found robotverseny_description: 0.0.0 (/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/cmake)
+[1.682s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.682s] -- Searching for dependencies of ignition-plugin1
+[1.684s] -- Searching for <ignition-plugin1> component [register]
+[1.686s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.686s] -- Searching for dependencies of ignition-plugin1-register
+[1.692s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.692s] -- Searching for dependencies of ignition-common4
+[1.721s] -- Looking for dlfcn.h - found
+[1.814s] -- Looking for libdl - found
+[1.815s] -- Found DL: TRUE  
+[1.822s] -- Checking for module 'uuid'
+[1.838s] --   Found uuid, version 2.37.2
+[1.860s] -- Found UUID: TRUE  
+[1.861s] -- Searching for <ignition-common4> component [profiler]
+[1.864s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.864s] -- Searching for dependencies of ignition-common4-profiler
+[1.884s] -- Looking for ignition-gazebo6 -- found version 6.16.0
+[1.884s] -- Searching for dependencies of ignition-gazebo6
+[1.887s] -- Looking for sdformat12 -- found version 12.8.0
+[1.888s] -- Searching for dependencies of sdformat12
+[1.892s] -- Checking for module 'tinyxml2'
+[1.903s] --   Found tinyxml2, version 9.0.0
+[1.926s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.926s] -- Searching for dependencies of ignition-math6
+[1.931s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.931s] -- Searching for dependencies of ignition-utils1
+[1.934s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.934s] -- Searching for dependencies of ignition-plugin1
+[1.935s] -- Searching for <ignition-plugin1> component [loader]
+[1.937s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.937s] -- Searching for dependencies of ignition-plugin1-loader
+[1.938s] -- Searching for <ignition-plugin1> component [register]
+[1.943s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.943s] -- Searching for dependencies of ignition-transport11
+[4.294s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.496s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.500s] -- Checking for module 'libzmq >= 4'
+[5.522s] --   Found libzmq , version 4.3.4
+[5.549s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.669s] -- Looking for ignition-utils1 -- found version 1.5.1
+[5.670s] -- Searching for dependencies of ignition-utils1
+[5.670s] -- Searching for <ignition-utils1> component [cli]
+[5.673s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[5.673s] -- Searching for dependencies of ignition-utils1-cli
+[5.677s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[5.677s] -- Searching for dependencies of ignition-msgs8
+[6.823s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[6.824s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.902s] -- Searching for <ignition-transport11> component [log]
+[6.904s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[6.905s] -- Searching for dependencies of ignition-transport11-log
+[6.907s] -- Searching for <ignition-transport11> component [parameters]
+[6.909s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[6.910s] -- Searching for dependencies of ignition-transport11-parameters
+[6.912s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[6.912s] -- Looking for ignition-common4 -- found version 4.7.0
+[6.913s] -- Searching for dependencies of ignition-common4
+[6.913s] -- Looking for dlfcn.h - found
+[6.913s] -- Looking for libdl - found
+[6.956s] -- Searching for <ignition-common4> component [profiler]
+[6.956s] -- Searching for <ignition-common4> component [events]
+[6.958s] -- Looking for ignition-common4-events -- found version 4.7.0
+[6.959s] -- Searching for dependencies of ignition-common4-events
+[6.959s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.961s] -- Searching for <ignition-common4> component [av]
+[6.963s] -- Looking for ignition-common4-av -- found version 4.7.0
+[6.963s] -- Searching for dependencies of ignition-common4-av
+[6.968s] -- Checking for module 'libswscale'
+[6.980s] --   Found libswscale, version 5.9.100
+[7.005s] -- Found SWSCALE: TRUE  
+[7.010s] -- Checking for module 'libavdevice >= 56.4.100'
+[7.024s] --   Found libavdevice , version 58.13.100
+[7.052s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[7.057s] -- Checking for module 'libavformat'
+[7.067s] --   Found libavformat, version 58.76.100
+[7.094s] -- Found AVFORMAT: TRUE  
+[7.098s] -- Checking for module 'libavcodec'
+[7.109s] --   Found libavcodec, version 58.134.100
+[7.136s] -- Found AVCODEC: TRUE  
+[7.141s] -- Checking for module 'libavutil'
+[7.150s] --   Found libavutil, version 56.70.100
+[7.181s] -- Found AVUTIL: TRUE  
+[7.185s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[7.185s] -- Searching for dependencies of ignition-fuel_tools7
+[8.591s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[8.604s] -- Checking for module 'jsoncpp'
+[8.615s] --   Found jsoncpp, version 1.9.5
+[8.645s] -- Found JSONCPP: TRUE  
+[8.654s] -- Checking for module 'libzip'
+[8.665s] --   Found libzip, version 1.7.3
+[8.698s] -- Found ZIP: TRUE  
+[8.698s] -- Looking for ignition-common4 -- found version 4.7.0
+[8.699s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.699s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[8.706s] -- Looking for ignition-gui6 -- found version 6.8.0
+[8.706s] -- Searching for dependencies of ignition-gui6
+[9.828s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.828s] -- Looking for ignition-common4 -- found version 4.7.0
+[9.829s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[9.829s] -- Looking for ignition-transport11 -- found version 11.4.1
+[9.836s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[9.836s] -- Searching for dependencies of ignition-rendering6
+[9.837s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.838s] -- Searching for dependencies of ignition-math6
+[9.838s] -- Searching for <ignition-math6> component [eigen3]
+[9.841s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[9.842s] -- Searching for dependencies of ignition-math6-eigen3
+[9.856s] -- Looking for ignition-common4 -- found version 4.7.0
+[9.857s] -- Searching for dependencies of ignition-common4
+[9.857s] -- Looking for dlfcn.h - found
+[9.857s] -- Looking for libdl - found
+[9.908s] -- Searching for <ignition-common4> component [graphics]
+[9.911s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[9.912s] -- Searching for dependencies of ignition-common4-graphics
+[9.912s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.912s] -- Looking for ignition-utils1 -- found version 1.5.1
+[9.914s] -- Searching for <ignition-common4> component [events]
+[9.915s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[9.915s] -- Searching for dependencies of ignition-plugin1
+[9.915s] -- Searching for <ignition-plugin1> component [all]
+[9.918s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[9.919s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[9.923s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[10.037s] -- Looking for ignition-physics5 -- found version 5.3.2
+[10.037s] -- Searching for dependencies of ignition-physics5
+[10.038s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.038s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[10.039s] -- Looking for ignition-utils1 -- found version 1.5.1
+[10.041s] -- Searching for <ignition-physics5> component [heightmap]
+[10.044s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[10.045s] -- Searching for dependencies of ignition-physics5-heightmap
+[10.045s] -- Looking for ignition-common4 -- found version 4.7.0
+[10.046s] -- Searching for <ignition-physics5> component [mesh]
+[10.049s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[10.049s] -- Searching for dependencies of ignition-physics5-mesh
+[10.050s] -- Looking for ignition-common4 -- found version 4.7.0
+[10.051s] -- Searching for <ignition-physics5> component [sdf]
+[10.053s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[10.054s] -- Searching for dependencies of ignition-physics5-sdf
+[10.054s] -- Looking for sdformat12 -- found version 12.8.0
+[10.059s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[10.059s] -- Searching for dependencies of ignition-sensors6
+[11.234s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[11.234s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.235s] -- Looking for ignition-common4 -- found version 4.7.0
+[11.235s] -- Looking for ignition-transport11 -- found version 11.4.1
+[11.236s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[11.236s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[11.237s] -- Looking for sdformat12 -- found version 12.8.0
+[11.239s] -- Searching for <ignition-sensors6> component [air_pressure]
+[11.242s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.0
+[11.243s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[11.245s] -- Searching for <ignition-sensors6> component [altimeter]
+[11.248s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.0
+[11.248s] -- Searching for dependencies of ignition-sensors6-altimeter
+[11.249s] -- Searching for <ignition-sensors6> component [imu]
+[11.252s] -- Looking for ignition-sensors6-imu -- found version 6.8.0
+[11.253s] -- Searching for dependencies of ignition-sensors6-imu
+[11.254s] -- Searching for <ignition-sensors6> component [force_torque]
+[11.257s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.0
+[11.257s] -- Searching for dependencies of ignition-sensors6-force_torque
+[11.258s] -- Searching for <ignition-sensors6> component [logical_camera]
+[11.261s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.0
+[11.261s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[11.262s] -- Searching for <ignition-sensors6> component [magnetometer]
+[11.265s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.0
+[11.265s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[11.266s] -- Searching for <ignition-sensors6> component [navsat]
+[11.268s] -- Looking for ignition-sensors6-navsat -- found version 6.8.0
+[11.269s] -- Searching for dependencies of ignition-sensors6-navsat
+[11.270s] -- Searching for <ignition-sensors6> component [rendering]
+[11.274s] -- Looking for ignition-sensors6-rendering -- found version 6.8.0
+[11.275s] -- Searching for dependencies of ignition-sensors6-rendering
+[11.276s] -- Searching for <ignition-sensors6> component [lidar]
+[11.278s] -- Looking for ignition-sensors6-lidar -- found version 6.8.0
+[11.279s] -- Searching for dependencies of ignition-sensors6-lidar
+[11.279s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[11.281s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[11.284s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0
+[11.285s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[11.285s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[11.288s] -- Searching for <ignition-sensors6> component [camera]
+[11.291s] -- Looking for ignition-sensors6-camera -- found version 6.8.0
+[11.291s] -- Searching for dependencies of ignition-sensors6-camera
+[11.292s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[11.293s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[11.295s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0
+[11.296s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[11.297s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[11.299s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0
+[11.300s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[11.301s] -- Searching for <ignition-sensors6> component [depth_camera]
+[11.303s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.0
+[11.304s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[11.304s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[11.306s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[11.309s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0
+[11.309s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[11.309s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[11.311s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[11.313s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0
+[11.314s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[11.314s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[11.315s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[11.316s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.320s] -- Looking for ignition-utils1 -- found version 1.5.1
+[12.454s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.536s] -- Configuring done
+[12.561s] -- Generating done
+[12.563s] -- Build files have been written to: /home/fauzan/cobagazebo/build/robotverseny_gazebo
+[12.577s] Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake /home/fauzan/cobagazebo/src/robotverseny/robotverseny_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fauzan/cobagazebo/install/robotverseny_gazebo
+[12.579s] Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_gazebo -- -j8 -l8
+[12.626s] [ 25%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[12.627s] [ 50%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[18.364s] [ 75%] [32m[1mLinking CXX shared library libBasicSystem.so[0m
+[18.462s] [100%] [32m[1mLinking CXX shared library libFullSystem.so[0m
+[18.777s] [100%] Built target BasicSystem
+[18.828s] [100%] Built target FullSystem
+[18.842s] Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_gazebo -- -j8 -l8
+[18.883s] Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_gazebo
+[18.891s] -- Install configuration: ""
+[18.891s] -- Execute custom install script
+[18.892s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/libBasicSystem.so
+[18.902s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo/libFullSystem.so
+[18.913s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/diff_drive.sdf
+[18.923s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/AsphaltTexture.png
+[18.933s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/chassis.dae
+[18.941s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/lidar.dae
+[18.950s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/textures/AsphaltTexture.png
+[18.959s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/tire.dae
+[18.966s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/trackWalls.dae
+[18.976s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/track_road.dae
+[18.984s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/track_stripes.dae
+[18.992s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/track_walls.dae
+[19.003s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/meshes/wheel.dae
+[19.011s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/worlds/roboworks.sdf
+[19.020s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/robotverseny_gazebo.dsv
+[19.027s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/robotverseny_gazebo.sh
+[19.037s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/ament_index/resource_index/package_run_dependencies/robotverseny_gazebo
+[19.044s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/ament_index/resource_index/parent_prefix_path/robotverseny_gazebo
+[19.052s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/ament_prefix_path.sh
+[19.063s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/ament_prefix_path.dsv
+[19.073s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/path.sh
+[19.085s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/environment/path.dsv
+[19.094s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/local_setup.bash
+[19.105s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/local_setup.sh
+[19.116s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/local_setup.zsh
+[19.125s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/local_setup.dsv
+[19.137s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.dsv
+[19.149s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/ament_index/resource_index/packages/robotverseny_gazebo
+[19.160s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/cmake/robotverseny_gazeboConfig.cmake
+[19.169s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/cmake/robotverseny_gazeboConfig-version.cmake
+[19.180s] -- Symlinking: /home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.xml
+[19.195s] Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_gazebo

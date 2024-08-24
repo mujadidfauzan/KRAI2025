@@ -1,0 +1,357 @@
+[0.228s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'robotverseny_application', 'robotverseny_description', 'robotverseny_bringup', 'robotverseny_gazebo']
+[0.228s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robotverseny_application', 'robotverseny_description', 'robotverseny_bringup', 'robotverseny_gazebo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f42da6c95a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f42da859db0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f42da859db0>>, mixin_verb=('build',))
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.353s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fauzan/cobagazebo'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny) by extension 'python_setup_py'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/img) by extension 'python_setup_py'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_application) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotverseny/robotverseny_application' with type 'ros.ament_cmake' and name 'robotverseny_application'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_bringup) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotverseny/robotverseny_bringup' with type 'ros.ament_cmake' and name 'robotverseny_bringup'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_description) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotverseny/robotverseny_description' with type 'ros.ament_cmake' and name 'robotverseny_description'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotverseny/robotverseny_gazebo) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotverseny/robotverseny_gazebo' with type 'ros.ament_cmake' and name 'robotverseny_gazebo'
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.392s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/fauzan/cobagazebo/install
+[0.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/humble
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'robotverseny_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fauzan/cobagazebo/build/robotverseny_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fauzan/cobagazebo/install/robotverseny_application', 'merge_install': False, 'path': '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_application', 'symlink_install': True, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'robotverseny_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fauzan/cobagazebo/build/robotverseny_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fauzan/cobagazebo/install/robotverseny_description', 'merge_install': False, 'path': '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_description', 'symlink_install': True, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'robotverseny_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fauzan/cobagazebo/build/robotverseny_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fauzan/cobagazebo/install/robotverseny_gazebo', 'merge_install': False, 'path': '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'robotverseny_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'robotverseny_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fauzan/cobagazebo/build/robotverseny_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fauzan/cobagazebo/install/robotverseny_bringup', 'merge_install': False, 'path': '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.441s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_description' with build type 'ament_cmake'
+[0.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_description'
+[0.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.452s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_application' with build type 'ament_cmake'
+[0.452s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_application'
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_description -- -j8 -l8
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_application -- -j8 -l8
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_description -- -j8 -l8
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_application -- -j8 -l8
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_description
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_application
+[0.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotverseny_description)
+[0.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_description
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description' for CMake module files
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description' for CMake config files
+[0.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotverseny_description', 'cmake_prefix_path')
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/hook/cmake_prefix_path.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/hook/cmake_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/hook/cmake_prefix_path.sh'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description/bin'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description/lib/pkgconfig/robotverseny_description.pc'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description/lib/python3.10/site-packages'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description/bin'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.dsv'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.sh'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.bash'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.zsh'
+[0.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fauzan/cobagazebo/install/robotverseny_description/share/colcon-core/packages/robotverseny_description)
+[0.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotverseny_application)
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application' for CMake module files
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_application
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application' for CMake config files
+[0.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotverseny_application', 'cmake_prefix_path')
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/hook/cmake_prefix_path.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/hook/cmake_prefix_path.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/hook/cmake_prefix_path.sh'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application/bin'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application/lib/pkgconfig/robotverseny_application.pc'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application/lib/python3.10/site-packages'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application/bin'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.bash'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.zsh'
+[0.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fauzan/cobagazebo/install/robotverseny_application/share/colcon-core/packages/robotverseny_application)
+[0.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotverseny_description)
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description' for CMake module files
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description' for CMake config files
+[0.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotverseny_description', 'cmake_prefix_path')
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/hook/cmake_prefix_path.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/hook/cmake_prefix_path.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/hook/cmake_prefix_path.sh'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description/bin'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description/lib/pkgconfig/robotverseny_description.pc'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description/lib/python3.10/site-packages'
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_description/bin'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.sh'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.bash'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/package.zsh'
+[0.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fauzan/cobagazebo/install/robotverseny_description/share/colcon-core/packages/robotverseny_description)
+[0.597s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_gazebo' with build type 'ament_cmake'
+[0.597s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_gazebo'
+[0.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotverseny_application)
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application' for CMake module files
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application' for CMake config files
+[0.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotverseny_application', 'cmake_prefix_path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/hook/cmake_prefix_path.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/hook/cmake_prefix_path.dsv'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/hook/cmake_prefix_path.sh'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application/bin'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application/lib/pkgconfig/robotverseny_application.pc'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application/lib/python3.10/site-packages'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_application/bin'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.sh'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.bash'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.zsh'
+[0.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fauzan/cobagazebo/install/robotverseny_application/share/colcon-core/packages/robotverseny_application)
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_gazebo -- -j8 -l8
+[0.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_gazebo -- -j8 -l8
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_gazebo
+[0.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotverseny_gazebo)
+[0.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_gazebo
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo' for CMake module files
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotverseny_gazebo', 'cmake_prefix_path')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/hook/cmake_prefix_path.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/hook/cmake_prefix_path.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/hook/cmake_prefix_path.sh'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/bin'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/pkgconfig/robotverseny_gazebo.pc'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/python3.10/site-packages'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/bin'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.sh'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.bash'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.zsh'
+[0.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/colcon-core/packages/robotverseny_gazebo)
+[0.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotverseny_gazebo)
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo' for CMake module files
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo' for CMake config files
+[0.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotverseny_gazebo', 'cmake_prefix_path')
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/hook/cmake_prefix_path.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/hook/cmake_prefix_path.dsv'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/hook/cmake_prefix_path.sh'
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/bin'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/pkgconfig/robotverseny_gazebo.pc'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/python3.10/site-packages'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_gazebo/bin'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.ps1'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.sh'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.bash'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/robotverseny_gazebo/package.zsh'
+[0.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fauzan/cobagazebo/install/robotverseny_gazebo/share/colcon-core/packages/robotverseny_gazebo)
+[0.776s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_bringup' with build type 'ament_cmake'
+[0.776s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fauzan/cobagazebo/src/robotverseny/robotverseny_bringup'
+[0.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.777s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_bringup': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_bringup -- -j8 -l8
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/fauzan/cobagazebo/build/robotverseny_bringup -- -j8 -l8
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fauzan/cobagazebo/build/robotverseny_bringup': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_bringup
+[0.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotverseny_bringup)
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fauzan/cobagazebo/build/robotverseny_bringup' returned '0': CMAKE_PREFIX_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo:/home/fauzan/cobagazebo/install/robotverseny_description:/home/fauzan/cobagazebo/install/robotverseny_bringup:/home/fauzan/cobagazebo/install/robotverseny_application:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/fauzan/cobagazebo/install/robotverseny_gazebo/lib/robotverseny_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/fauzan/cobagazebo/install/robotverseny_description/share/robotverseny_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/fauzan/cobagazebo/build/robotverseny_bringup
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup' for CMake module files
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup' for CMake config files
+[0.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotverseny_bringup', 'cmake_prefix_path')
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/hook/cmake_prefix_path.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/hook/cmake_prefix_path.dsv'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/hook/cmake_prefix_path.sh'
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup/bin'
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup/lib/pkgconfig/robotverseny_bringup.pc'
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup/lib/python3.10/site-packages'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup/bin'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.ps1'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.dsv'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.sh'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.bash'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.zsh'
+[0.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fauzan/cobagazebo/install/robotverseny_bringup/share/colcon-core/packages/robotverseny_bringup)
+[0.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotverseny_bringup)
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup' for CMake module files
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup' for CMake config files
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotverseny_bringup', 'cmake_prefix_path')
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/hook/cmake_prefix_path.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/hook/cmake_prefix_path.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/hook/cmake_prefix_path.sh'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup/bin'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup/lib/pkgconfig/robotverseny_bringup.pc'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup/lib/python3.10/site-packages'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/fauzan/cobagazebo/install/robotverseny_bringup/bin'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.ps1'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.sh'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.bash'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/fauzan/cobagazebo/install/robotverseny_bringup/share/robotverseny_bringup/package.zsh'
+[0.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fauzan/cobagazebo/install/robotverseny_bringup/share/colcon-core/packages/robotverseny_bringup)
+[0.950s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.950s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.950s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.950s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.992s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.992s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[0.992s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fauzan/cobagazebo/install/local_setup.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fauzan/cobagazebo/install/_local_setup_util_ps1.py'
+[0.995s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fauzan/cobagazebo/install/setup.ps1'
+[0.996s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fauzan/cobagazebo/install/local_setup.sh'
+[0.996s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fauzan/cobagazebo/install/_local_setup_util_sh.py'
+[0.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fauzan/cobagazebo/install/setup.sh'
+[0.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fauzan/cobagazebo/install/local_setup.bash'
+[0.999s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fauzan/cobagazebo/install/setup.bash'
+[1.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fauzan/cobagazebo/install/local_setup.zsh'
+[1.001s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fauzan/cobagazebo/install/setup.zsh'

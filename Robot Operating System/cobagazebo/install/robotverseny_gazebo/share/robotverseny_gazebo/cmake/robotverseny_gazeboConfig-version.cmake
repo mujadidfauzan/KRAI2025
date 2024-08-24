@@ -1,0 +1,1 @@
+/home/fauzan/cobagazebo/build/robotverseny_gazebo/ament_cmake_core/robotverseny_gazeboConfig-version.cmake

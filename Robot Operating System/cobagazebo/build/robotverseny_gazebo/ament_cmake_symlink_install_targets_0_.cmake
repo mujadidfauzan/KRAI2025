@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fauzan/cobagazebo/build/robotverseny_gazebo/libBasicSystem.so" "/home/fauzan/cobagazebo/build/robotverseny_gazebo/libFullSystem.so" "TARGETS" "BasicSystem" "FullSystem" "DESTINATION" "lib/robotverseny_gazebo")

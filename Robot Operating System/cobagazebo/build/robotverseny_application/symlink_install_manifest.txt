@@ -1,0 +1,15 @@
+/home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/package_run_dependencies/robotverseny_application
+/home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/parent_prefix_path/robotverseny_application
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/ament_prefix_path.sh
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/ament_prefix_path.dsv
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/path.sh
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/environment/path.dsv
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.bash
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.sh
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.zsh
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/local_setup.dsv
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.dsv
+/home/fauzan/cobagazebo/install/robotverseny_application/share/ament_index/resource_index/packages/robotverseny_application
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/cmake/robotverseny_applicationConfig.cmake
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/cmake/robotverseny_applicationConfig-version.cmake
+/home/fauzan/cobagazebo/install/robotverseny_application/share/robotverseny_application/package.xml

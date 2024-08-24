@@ -1,0 +1,4 @@
+source;share/robotverseny_application/local_setup.bash
+source;share/robotverseny_application/local_setup.dsv
+source;share/robotverseny_application/local_setup.sh
+source;share/robotverseny_application/local_setup.zsh
